@@ -1,0 +1,31 @@
+main: me.cluter.passivemode.Main
+name: GhostMode
+version: 1.1
+author: cluter123
+
+commands:
+  ghostmode:
+    description: Allows the use of GhostMode.
+permissions:
+  gm.all:
+    description: Restricts all aspects of the plugin.
+    children:
+      gm.invincible: true
+      gm.damageothers: true
+      gm.build: true
+      gm.interact: true
+      gm.inv: true
+  gm.use:
+    description: Allows usage of GhostMode.
+  gm.admin:
+    description: Allows admining of GhostMode.
+  gm.invincible:
+    description: Allows you to be invincible in GhostMode
+  gm.damageothers:
+    description: Restricts damage to other entities in GhostMode
+  gm.build:
+    description: Restricts building in GhostMode
+  gm.interact:
+    description: Restricts interaction in GhostMode
+  gm.inv:
+    description: Restricts dropping/picking up items in GhostMode
